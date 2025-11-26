@@ -8,7 +8,7 @@
 #include <arpa/inet.h>
 #include <unistd.h>
 #include <string.h>
-#define MESS_LEN 4
+#define MESS_LEN 32
 
 int Socket(int domain, int type, int protocol);
 void Bind(int sockfd, const struct sockaddr* addr, socklen_t addrlen);
